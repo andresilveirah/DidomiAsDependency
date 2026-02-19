@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E153BF0BC49299418BAC7EA47A844795 /* Didomi-XCFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 49A9AEDEE881C200B16D58DC03C422EA /* Build configuration list for PBXAggregateTarget "Didomi-XCFramework" */;
+			buildPhases = (
+				CA2B321B6A6F9850B996E68EA0D7F70E /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = "Didomi-XCFramework";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0E0D32B1CBA74023099F724835F0E04E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		1C3677202C53F9C411E1E0B2D5228FEF /* DidomiWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018977EEE043B946E545ED8A420F63AF /* DidomiWrapper.swift */; };
+		42E0EC35EB0C44E7FB9266129AB90A6B /* Pods-DidomiAsDependency_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A358D81B73F756E49FFC8947E7575643 /* Pods-DidomiAsDependency_Example-dummy.m */; };
+		4EE69F61F633E68CA209734E19386AB1 /* DidomiAsDependency-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0428923DFAFE4783009EFE0FCB662C26 /* DidomiAsDependency-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		675B54643D3DDD79D9E558435AFFB726 /* Pods-DidomiAsDependency_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8088BFD4BEDA015CECBCA2C927E50F4 /* Pods-DidomiAsDependency_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8CE8FE3775DEBDB0C7C270713991125 /* DidomiAsDependency-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3305B393AD2922785DCD13B1047D6A /* DidomiAsDependency-dummy.m */; };
+		DE633AED2A030B05236D1AFD5C627F94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		351E094DCE3CC38EE64A40105F96D3A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D5DD86CC579BEB119B20B6B1EFC57A0;
+			remoteInfo = DidomiAsDependency;
+		};
+		6B7D5AE7EE490BC3581FA70350AB5369 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E153BF0BC49299418BAC7EA47A844795;
+			remoteInfo = "Didomi-XCFramework";
+		};
+		DDF7C481233DF8695FB6836D945E0481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E153BF0BC49299418BAC7EA47A844795;
+			remoteInfo = "Didomi-XCFramework";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		018977EEE043B946E545ED8A420F63AF /* DidomiWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DidomiWrapper.swift; path = DidomiAsDependency/Classes/DidomiWrapper.swift; sourceTree = "<group>"; };
+		0428923DFAFE4783009EFE0FCB662C26 /* DidomiAsDependency-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DidomiAsDependency-umbrella.h"; sourceTree = "<group>"; };
+		1CA2E52CED0B8CB59EB68294A2CC4597 /* Pods-DidomiAsDependency_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DidomiAsDependency_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		286F0B41CF5DBB6AAB72BF7DF15CACB5 /* Pods-DidomiAsDependency_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DidomiAsDependency_Example"; path = Pods_DidomiAsDependency_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28AC21C484F1F2FC33C9BA72E08BFB5C /* DidomiAsDependency.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DidomiAsDependency.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2D963B4CDA3C3B8B6A5CFD0E89544C79 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3EA6680491DF60433FE36164D7F72321 /* DidomiAsDependency.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DidomiAsDependency.modulemap; sourceTree = "<group>"; };
+		642E072111CD91F3E1AED7952EF67FE4 /* DidomiAsDependency-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DidomiAsDependency-prefix.pch"; sourceTree = "<group>"; };
+		6E3305B393AD2922785DCD13B1047D6A /* DidomiAsDependency-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DidomiAsDependency-dummy.m"; sourceTree = "<group>"; };
+		7DD61A5513739BEC9AFB826FCBC3058B /* Pods-DidomiAsDependency_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DidomiAsDependency_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7E49C79ABEAA1CD4A6303BE135B4D9AA /* DidomiAsDependency-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DidomiAsDependency-Info.plist"; sourceTree = "<group>"; };
+		869E780A0ED644680C209AB7F2306092 /* Pods-DidomiAsDependency_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DidomiAsDependency_Example.release.xcconfig"; sourceTree = "<group>"; };
+		901581A0F8949A128421FBF7C93CBF7C /* Didomi-XCFramework-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Didomi-XCFramework-xcframeworks.sh"; sourceTree = "<group>"; };
+		91F0534517F74A2BAF89A46A13566451 /* Didomi.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = Didomi.xcframework; sourceTree = "<group>"; };
+		970977316A63DB7E5F2AFE4BD41C3632 /* Pods-DidomiAsDependency_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DidomiAsDependency_Example-Info.plist"; sourceTree = "<group>"; };
+		98C581C447C5A5F9B5079C24ADE5EF9B /* Didomi-XCFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Didomi-XCFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0B94947A664D97AED7F10E67722D8DB /* Pods-DidomiAsDependency_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DidomiAsDependency_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A27E24773B3E2C81F57F85C3926F4F2B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A358D81B73F756E49FFC8947E7575643 /* Pods-DidomiAsDependency_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DidomiAsDependency_Example-dummy.m"; sourceTree = "<group>"; };
+		AE1AEFE61A75E6494916E2CEA29B7588 /* Didomi-XCFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Didomi-XCFramework.release.xcconfig"; sourceTree = "<group>"; };
+		AF3954A44EC05F4CB5E116EED9F8EB15 /* Pods-DidomiAsDependency_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DidomiAsDependency_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C789C96D6CA0A812296DD592997E3A8D /* DidomiAsDependency.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DidomiAsDependency.release.xcconfig; sourceTree = "<group>"; };
+		D1EA9EEFBD881579733CBE5E0924E292 /* DidomiAsDependency.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DidomiAsDependency.debug.xcconfig; sourceTree = "<group>"; };
+		E4C1A3BF01BFB277DA1EA008EA3F983C /* DidomiAsDependency */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DidomiAsDependency; path = DidomiAsDependency.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8088BFD4BEDA015CECBCA2C927E50F4 /* Pods-DidomiAsDependency_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DidomiAsDependency_Example-umbrella.h"; sourceTree = "<group>"; };
+		EEC95DB8B761702DF30C587B3E833182 /* Pods-DidomiAsDependency_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DidomiAsDependency_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44B81114215F1D41F7ECEA075454CD7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E0D32B1CBA74023099F724835F0E04E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0E672D17E9DF9CC4E30ABAA45C1EAA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE633AED2A030B05236D1AFD5C627F94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AF3680AAC3516D228E44FA77928E3E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4C1A3BF01BFB277DA1EA008EA3F983C /* DidomiAsDependency */,
+				286F0B41CF5DBB6AAB72BF7DF15CACB5 /* Pods-DidomiAsDependency_Example */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B063AC9B8CCEE947E1CB62683890FAE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EA6680491DF60433FE36164D7F72321 /* DidomiAsDependency.modulemap */,
+				6E3305B393AD2922785DCD13B1047D6A /* DidomiAsDependency-dummy.m */,
+				7E49C79ABEAA1CD4A6303BE135B4D9AA /* DidomiAsDependency-Info.plist */,
+				642E072111CD91F3E1AED7952EF67FE4 /* DidomiAsDependency-prefix.pch */,
+				0428923DFAFE4783009EFE0FCB662C26 /* DidomiAsDependency-umbrella.h */,
+				D1EA9EEFBD881579733CBE5E0924E292 /* DidomiAsDependency.debug.xcconfig */,
+				C789C96D6CA0A812296DD592997E3A8D /* DidomiAsDependency.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DidomiAsDependency";
+			sourceTree = "<group>";
+		};
+		33EA933DFE27FE15B590D94D171A4526 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E029A2229A64073C8BE4299BA6B81143 /* Pods-DidomiAsDependency_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5F7BE4268BE519C30575C32ED47B5B19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E624FD2CEAB6ED459907E96E19020EBC /* Didomi-XCFramework */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6ACB8D037E384980B0DB0BFB8431A610 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91F0534517F74A2BAF89A46A13566451 /* Didomi.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73E731ACD9425AD4230687E465519AF8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				901581A0F8949A128421FBF7C93CBF7C /* Didomi-XCFramework-xcframeworks.sh */,
+				98C581C447C5A5F9B5079C24ADE5EF9B /* Didomi-XCFramework.debug.xcconfig */,
+				AE1AEFE61A75E6494916E2CEA29B7588 /* Didomi-XCFramework.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Didomi-XCFramework";
+			sourceTree = "<group>";
+		};
+		9D3B7C2542B6DB8A9FAD353D86A4DADB /* DidomiAsDependency */ = {
+			isa = PBXGroup;
+			children = (
+				018977EEE043B946E545ED8A420F63AF /* DidomiWrapper.swift */,
+				E83E1E28C13A31E96AD1DB59735D5CED /* Pod */,
+				2B063AC9B8CCEE947E1CB62683890FAE /* Support Files */,
+			);
+			name = DidomiAsDependency;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E9A368F4382E2CD7348BCC4A44B96674 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5F7BE4268BE519C30575C32ED47B5B19 /* Pods */,
+				2AF3680AAC3516D228E44FA77928E3E3 /* Products */,
+				33EA933DFE27FE15B590D94D171A4526 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E029A2229A64073C8BE4299BA6B81143 /* Pods-DidomiAsDependency_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EEC95DB8B761702DF30C587B3E833182 /* Pods-DidomiAsDependency_Example.modulemap */,
+				1CA2E52CED0B8CB59EB68294A2CC4597 /* Pods-DidomiAsDependency_Example-acknowledgements.markdown */,
+				AF3954A44EC05F4CB5E116EED9F8EB15 /* Pods-DidomiAsDependency_Example-acknowledgements.plist */,
+				A358D81B73F756E49FFC8947E7575643 /* Pods-DidomiAsDependency_Example-dummy.m */,
+				7DD61A5513739BEC9AFB826FCBC3058B /* Pods-DidomiAsDependency_Example-frameworks.sh */,
+				970977316A63DB7E5F2AFE4BD41C3632 /* Pods-DidomiAsDependency_Example-Info.plist */,
+				E8088BFD4BEDA015CECBCA2C927E50F4 /* Pods-DidomiAsDependency_Example-umbrella.h */,
+				A0B94947A664D97AED7F10E67722D8DB /* Pods-DidomiAsDependency_Example.debug.xcconfig */,
+				869E780A0ED644680C209AB7F2306092 /* Pods-DidomiAsDependency_Example.release.xcconfig */,
+			);
+			name = "Pods-DidomiAsDependency_Example";
+			path = "Target Support Files/Pods-DidomiAsDependency_Example";
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E624FD2CEAB6ED459907E96E19020EBC /* Didomi-XCFramework */ = {
+			isa = PBXGroup;
+			children = (
+				6ACB8D037E384980B0DB0BFB8431A610 /* Frameworks */,
+				73E731ACD9425AD4230687E465519AF8 /* Support Files */,
+			);
+			name = "Didomi-XCFramework";
+			path = "Didomi-XCFramework";
+			sourceTree = "<group>";
+		};
+		E83E1E28C13A31E96AD1DB59735D5CED /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				28AC21C484F1F2FC33C9BA72E08BFB5C /* DidomiAsDependency.podspec */,
+				2D963B4CDA3C3B8B6A5CFD0E89544C79 /* LICENSE */,
+				A27E24773B3E2C81F57F85C3926F4F2B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E9A368F4382E2CD7348BCC4A44B96674 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D3B7C2542B6DB8A9FAD353D86A4DADB /* DidomiAsDependency */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4F4BD635B7733B1CA48CCCFA4756DC48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				675B54643D3DDD79D9E558435AFFB726 /* Pods-DidomiAsDependency_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E0BA0D6211F87B4DED38A672953E2E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE69F61F633E68CA209734E19386AB1 /* DidomiAsDependency-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		60387888E9CE52613EAB84AEA442AC89 /* Pods-DidomiAsDependency_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCFC4E190278AD402F9F29905486A5B8 /* Build configuration list for PBXNativeTarget "Pods-DidomiAsDependency_Example" */;
+			buildPhases = (
+				4F4BD635B7733B1CA48CCCFA4756DC48 /* Headers */,
+				779D2985B26F021AB0642EF27A23E430 /* Sources */,
+				A0E672D17E9DF9CC4E30ABAA45C1EAA3 /* Frameworks */,
+				3D54E10D6DF2D0211CD799080C83A531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A14CCC17667D48589CEDCECDE5B1746F /* PBXTargetDependency */,
+				955D340B1744C0390498DCBE12530C8C /* PBXTargetDependency */,
+			);
+			name = "Pods-DidomiAsDependency_Example";
+			productName = Pods_DidomiAsDependency_Example;
+			productReference = 286F0B41CF5DBB6AAB72BF7DF15CACB5 /* Pods-DidomiAsDependency_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		7D5DD86CC579BEB119B20B6B1EFC57A0 /* DidomiAsDependency */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22D0548C59DE661EC50381BAA31D52D7 /* Build configuration list for PBXNativeTarget "DidomiAsDependency" */;
+			buildPhases = (
+				5E0BA0D6211F87B4DED38A672953E2E3 /* Headers */,
+				C1639482752266943FEDDBA31E811668 /* Sources */,
+				44B81114215F1D41F7ECEA075454CD7F /* Frameworks */,
+				92192425373A16441AF614CC1B2A8BD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FFC5ED2CC7C1C59F3FF0527680B35A1 /* PBXTargetDependency */,
+			);
+			name = DidomiAsDependency;
+			productName = DidomiAsDependency;
+			productReference = E4C1A3BF01BFB277DA1EA008EA3F983C /* DidomiAsDependency */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2AF3680AAC3516D228E44FA77928E3E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E153BF0BC49299418BAC7EA47A844795 /* Didomi-XCFramework */,
+				7D5DD86CC579BEB119B20B6B1EFC57A0 /* DidomiAsDependency */,
+				60387888E9CE52613EAB84AEA442AC89 /* Pods-DidomiAsDependency_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D54E10D6DF2D0211CD799080C83A531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92192425373A16441AF614CC1B2A8BD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CA2B321B6A6F9850B996E68EA0D7F70E /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Didomi-XCFramework/Didomi-XCFramework-xcframeworks.sh",
+				"${PODS_ROOT}/Didomi-XCFramework/Didomi.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Didomi-XCFramework/Didomi.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Didomi-XCFramework/Didomi-XCFramework-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		779D2985B26F021AB0642EF27A23E430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42E0EC35EB0C44E7FB9266129AB90A6B /* Pods-DidomiAsDependency_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1639482752266943FEDDBA31E811668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8CE8FE3775DEBDB0C7C270713991125 /* DidomiAsDependency-dummy.m in Sources */,
+				1C3677202C53F9C411E1E0B2D5228FEF /* DidomiWrapper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FFC5ED2CC7C1C59F3FF0527680B35A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Didomi-XCFramework";
+			target = E153BF0BC49299418BAC7EA47A844795 /* Didomi-XCFramework */;
+			targetProxy = 6B7D5AE7EE490BC3581FA70350AB5369 /* PBXContainerItemProxy */;
+		};
+		955D340B1744C0390498DCBE12530C8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DidomiAsDependency;
+			target = 7D5DD86CC579BEB119B20B6B1EFC57A0 /* DidomiAsDependency */;
+			targetProxy = 351E094DCE3CC38EE64A40105F96D3A6 /* PBXContainerItemProxy */;
+		};
+		A14CCC17667D48589CEDCECDE5B1746F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Didomi-XCFramework";
+			target = E153BF0BC49299418BAC7EA47A844795 /* Didomi-XCFramework */;
+			targetProxy = DDF7C481233DF8695FB6836D945E0481 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E6E2D5AD87C45B7D3F042AB477EBCB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0B94947A664D97AED7F10E67722D8DB /* Pods-DidomiAsDependency_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-DidomiAsDependency_Example/Pods-DidomiAsDependency_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DidomiAsDependency_Example/Pods-DidomiAsDependency_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		555C51CB5B8C7575E2A92C65A6DC18F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C581C447C5A5F9B5079C24ADE5EF9B /* Didomi-XCFramework.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B7E141E3A154A6FE742F7B554D3895A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1EA9EEFBD881579733CBE5E0924E292 /* DidomiAsDependency.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/DidomiAsDependency/DidomiAsDependency-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/DidomiAsDependency/DidomiAsDependency-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DidomiAsDependency/DidomiAsDependency.modulemap";
+				PRODUCT_MODULE_NAME = DidomiAsDependency;
+				PRODUCT_NAME = DidomiAsDependency;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9D9BF5BE607F3D24AF921BAFA6094343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE1AEFE61A75E6494916E2CEA29B7588 /* Didomi-XCFramework.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EC8385BD1D6F2A7D9C996FC1084D3EEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C789C96D6CA0A812296DD592997E3A8D /* DidomiAsDependency.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/DidomiAsDependency/DidomiAsDependency-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/DidomiAsDependency/DidomiAsDependency-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DidomiAsDependency/DidomiAsDependency.modulemap";
+				PRODUCT_MODULE_NAME = DidomiAsDependency;
+				PRODUCT_NAME = DidomiAsDependency;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EFC2FFC30154F1EE7C73D93C4589FDA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 869E780A0ED644680C209AB7F2306092 /* Pods-DidomiAsDependency_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-DidomiAsDependency_Example/Pods-DidomiAsDependency_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DidomiAsDependency_Example/Pods-DidomiAsDependency_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22D0548C59DE661EC50381BAA31D52D7 /* Build configuration list for PBXNativeTarget "DidomiAsDependency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B7E141E3A154A6FE742F7B554D3895A /* Debug */,
+				EC8385BD1D6F2A7D9C996FC1084D3EEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A9AEDEE881C200B16D58DC03C422EA /* Build configuration list for PBXAggregateTarget "Didomi-XCFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555C51CB5B8C7575E2A92C65A6DC18F0 /* Debug */,
+				9D9BF5BE607F3D24AF921BAFA6094343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCFC4E190278AD402F9F29905486A5B8 /* Build configuration list for PBXNativeTarget "Pods-DidomiAsDependency_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6E2D5AD87C45B7D3F042AB477EBCB2 /* Debug */,
+				EFC2FFC30154F1EE7C73D93C4589FDA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,9 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'DidomiAsDependency_Example' do
+  pod 'DidomiAsDependency', :path => '../'
+
+#  pod 'Didomi-XCFramework', :path => '/Users/andreherculano/dev/didomi/ios'
+end

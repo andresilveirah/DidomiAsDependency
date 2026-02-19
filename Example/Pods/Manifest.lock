@@ -1,0 +1,23 @@
+PODS:
+  - Didomi-XCFramework (2.36.2)
+  - DidomiAsDependency (0.1.0):
+    - Didomi-XCFramework (= 2.36.2)
+
+DEPENDENCIES:
+  - DidomiAsDependency (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Didomi-XCFramework
+
+EXTERNAL SOURCES:
+  DidomiAsDependency:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Didomi-XCFramework: 5051f60ade55e99dc6bef9d4aff6683b8ab037b8
+  DidomiAsDependency: 3e54233a4143cfd4ffc673a04a052859615b11b1
+
+PODFILE CHECKSUM: 619e071aa754b31e4df1483c1c2bf5045bdf931b
+
+COCOAPODS: 1.16.2
