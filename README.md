@@ -1,29 +1,19 @@
 # DidomiAsDependency
 
-[![CI Status](https://img.shields.io/travis/andresilveirah/DidomiAsDependency.svg?style=flat)](https://travis-ci.org/andresilveirah/DidomiAsDependency)
-[![Version](https://img.shields.io/cocoapods/v/DidomiAsDependency.svg?style=flat)](https://cocoapods.org/pods/DidomiAsDependency)
-[![License](https://img.shields.io/cocoapods/l/DidomiAsDependency.svg?style=flat)](https://cocoapods.org/pods/DidomiAsDependency)
-[![Platform](https://img.shields.io/cocoapods/p/DidomiAsDependency.svg?style=flat)](https://cocoapods.org/pods/DidomiAsDependency)
-
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## Adding a pod as dependency of another pod
 
-## Installation
-
-DidomiAsDependency is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+Usually this is done simply by adding the following to the pod's `.podspec` file.
 
 ```ruby
-pod 'DidomiAsDependency'
+  s.dependency 'Didomi-XCFramework', '2.36.2'
 ```
 
-## Author
+However, in order to point cocoapods to use a local version of the pod as dependency, the pod needs to be added to the Example's app `Podfile`, like so:
 
-andresilveirah, 228650+andresilveirah@users.noreply.github.com
-
-## License
-
-DidomiAsDependency is available under the MIT license. See the LICENSE file for more info.
+```ruby
+pod 'Didomi-XCFramework', :path => 'absolute or relative path to the folder where the podspec of the dependency can be found.'
+```
